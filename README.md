@@ -7,3 +7,7 @@ A Simple Love Calculator is a fun and playful app that calculates a "love percen
 <li>✅ Generates a love percentage (e.g., 85%)</li>
 <li>✅ Simple and easy-to-use interface</li>
 <li>✅ Purely for fun and amusement</li>
+
+https://love-calculation.netlify.app/
+
+![image](https://github.com/user-attachments/assets/6ffe1d7e-2de5-4f80-a505-724bddb72216)
