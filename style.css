@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(./love.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-box{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#calculate{
+    width: 150px;
+    height: 50px;
+    background-color: hotpink;
+color: white; 
+font-size: 20px;
+border: none;
+    border-radius: 10px;
+}
+
+#result-percentage{
+    font-size: 35px;
+}
+
+#your-name{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#crush-name{
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #content-box {
+        width: 90%;  /* Adjust width to make it more responsive */
+        max-width: 400px;  /* Set a maximum width for larger screens */
+        height: auto;  /* Allow height to adjust according to content */
+        margin-top: 20px;
+    }
+
+    #calculate {
+        width: 80%;
+    }
+
+    #result-percentage {
+        font-size: 30px;
+    }
+
+    #your-name, #crush-name {
+        width: 100%;  /* Make inputs take full width */
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    #content-box {
+        padding: 15px;
+    }
+
+    #calculate {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    #result-percentage {
+        font-size: 25px;
+    }
+
+    #your-name, #crush-name {
+        width: 50%;  /* Ensure the inputs take full width on mobile */
+        margin-top: 10px;
+    }
+}
